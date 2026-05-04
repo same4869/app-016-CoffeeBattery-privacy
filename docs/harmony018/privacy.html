@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIRE自由倒计时 隐私政策</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.8;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 12px;
+            padding: 32px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+        h1 {
+            font-size: 22px;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
+        .update-date {
+            font-size: 13px;
+            color: #999;
+            margin-bottom: 24px;
+        }
+        .intro {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 24px;
+            padding: 16px;
+            background: #f9fafb;
+            border-radius: 8px;
+            border-left: 3px solid #06b6d4;
+        }
+        h2 {
+            font-size: 16px;
+            color: #1a1a1a;
+            margin-top: 24px;
+            margin-bottom: 12px;
+            padding-left: 12px;
+            border-left: 3px solid #8b5cf6;
+        }
+        p {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 12px;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 12px;
+        }
+        li {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 6px;
+        }
+        .highlight {
+            color: #06b6d4;
+            font-weight: 600;
+        }
+        .footer {
+            margin-top: 32px;
+            padding-top: 16px;
+            border-top: 1px solid #eee;
+            font-size: 12px;
+            color: #999;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>FIRE自由倒计时 隐私政策</h1>
+        <p class="update-date">最后更新日期：2026年5月4日</p>
+
+        <div class="intro">
+            FIRE自由倒计时（以下简称"本应用"）由开发者 xun 开发并运营。我们深知个人财务数据的敏感性，因此本应用采用<span class="highlight">纯本地运算</span>架构，不收集、不上传、不存储任何用户数据至远程服务器。
+        </div>
+
+        <h2>一、数据存储方式</h2>
+        <p>本应用的所有数据（包括但不限于个人财务参数、资产记录、使用偏好）均存储在您的设备本地，使用 HarmonyOS 系统提供的 Preferences API 进行持久化存储。数据不会离开您的设备。</p>
+
+        <h2>二、信息收集</h2>
+        <p>本应用<span class="highlight">不收集</span>任何个人信息，具体包括：</p>
+        <ul>
+            <li>不收集姓名、手机号、身份证号等身份信息</li>
+            <li>不收集地理位置信息</li>
+            <li>不收集设备标识符或广告 ID</li>
+            <li>不收集使用行为数据或浏览记录</li>
+            <li>不存在用户账号体系和注册登录流程</li>
+            <li>不发起任何网络请求</li>
+        </ul>
+
+        <h2>三、数据安全</h2>
+        <p>您的数据受到 HarmonyOS 系统级应用沙箱机制保护，其他应用无法访问本应用的数据目录。</p>
+        <p>卸载本应用后，所有本地数据将被系统永久删除，不可恢复。</p>
+        <p>您也可以在应用内"我的 → 清除所有数据"中手动擦除全部记录。</p>
+
+        <h2>四、第三方服务</h2>
+        <p>本应用<span class="highlight">不集成</span>任何第三方服务，包括但不限于：</p>
+        <ul>
+            <li>无第三方统计分析 SDK（如友盟、Firebase 等）</li>
+            <li>无广告网络 SDK</li>
+            <li>无社交分享 SDK</li>
+            <li>无推送服务 SDK</li>
+            <li>无崩溃收集 SDK</li>
+        </ul>
+
+        <h2>五、权限使用说明</h2>
+        <p>本应用仅申请以下权限：</p>
+        <ul>
+            <li><strong>ohos.permission.VIBRATE</strong>（振动）：用于微储蓄按钮的触觉反馈，提升交互体验。该权限为系统级权限，无需用户手动授权。</li>
+        </ul>
+        <p>本应用不申请以下敏感权限：</p>
+        <ul>
+            <li>网络访问权限</li>
+            <li>位置信息权限</li>
+            <li>相机/麦克风权限</li>
+            <li>通讯录/通话记录权限</li>
+            <li>文件读写权限</li>
+        </ul>
+
+        <h2>六、儿童隐私保护</h2>
+        <p>本应用不面向14周岁以下的未成年人设计或推广。本应用不主动收集任何年龄段用户的个人信息。</p>
+
+        <h2>七、数据共享与转让</h2>
+        <p>由于本应用不收集任何用户数据，因此不存在数据共享、转让或公开披露的情形。</p>
+
+        <h2>八、用户权利</h2>
+        <p>您对本应用中的数据享有完全控制权：</p>
+        <ul>
+            <li><strong>查看</strong>：所有数据均在应用界面中直接展示</li>
+            <li><strong>修改</strong>：您可以随时在"个人档案设置"中修改任何参数</li>
+            <li><strong>删除</strong>：您可以随时通过"清除所有数据"功能一键删除全部记录</li>
+            <li><strong>导出</strong>：卸载前请自行记录重要数据（当前版本暂不支持导出功能）</li>
+        </ul>
+
+        <h2>九、隐私政策更新</h2>
+        <p>如本隐私政策发生变更，我们将通过应用更新的方式通知您。重大变更将在应用内以弹窗形式告知。</p>
+        <p>我们建议您在每次应用更新后查阅最新版本的隐私政策。</p>
+
+        <h2>十、联系我们</h2>
+        <p>如您对本隐私政策有任何疑问或建议，请通过以下方式联系我们：</p>
+        <ul>
+            <li>华为应用市场评论区留言</li>
+        </ul>
+
+        <div class="footer">
+            <p>FIRE自由倒计时 · 版本 1.0.0</p>
+            <p>纯本地运算 · 不收集任何数据 · 守护您的财务隐私</p>
+        </div>
+    </div>
+</body>
+</html>
