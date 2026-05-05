@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>六迹 - 隐私政策</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif;
+      background: #09090b;
+      color: #d4d4d8;
+      line-height: 1.8;
+      padding: 24px;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 24px;
+      color: #f4f4f5;
+      letter-spacing: 4px;
+      margin-bottom: 8px;
+      font-weight: 500;
+    }
+    .subtitle {
+      font-size: 13px;
+      color: #71717a;
+      letter-spacing: 2px;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 16px;
+      color: #e4e4e7;
+      letter-spacing: 2px;
+      margin-top: 32px;
+      margin-bottom: 12px;
+      font-weight: 500;
+      padding-left: 12px;
+      border-left: 3px solid #34d399;
+    }
+    p {
+      font-size: 14px;
+      color: #a1a1aa;
+      margin-bottom: 16px;
+      letter-spacing: 0.5px;
+    }
+    .section {
+      background: #18181b;
+      border: 1px solid #27272a;
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+    .highlight {
+      color: #34d399;
+      font-weight: 500;
+    }
+    .footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid #27272a;
+      font-size: 12px;
+      color: #52525b;
+      letter-spacing: 1px;
+    }
+    ul {
+      padding-left: 20px;
+      margin-bottom: 16px;
+    }
+    li {
+      font-size: 14px;
+      color: #a1a1aa;
+      margin-bottom: 8px;
+    }
+    li::marker {
+      color: #34d399;
+    }
+  </style>
+</head>
+<body>
+  <h1>隐私政策</h1>
+  <p class="subtitle">六迹 (SixEchoes) | 最后更新：2026年5月</p>
+
+  <div class="section">
+    <p>六迹是一款<span class="highlight">纯本地单机应用</span>。我们深知个人日记的私密性，因此从架构层面确保您的数据安全。以下是我们对您隐私的完整承诺。</p>
+  </div>
+
+  <h2>一、数据存储</h2>
+  <p>您在六迹中记录的所有内容（文字、心情标记、记录时间）均保存在您设备本地的 SQLite 数据库中。数据不会被上传至任何远程服务器、云端存储或第三方平台。</p>
+
+  <h2>二、网络访问</h2>
+  <p>六迹<span class="highlight">不申请网络访问权限</span>。应用在无网络环境下可完整运行。我们不收集、不传输、不共享任何用户数据。</p>
+
+  <h2>三、权限使用</h2>
+  <p>六迹仅申请以下权限：</p>
+  <ul>
+    <li><strong>本地通知权限</strong> (ohos.permission.PUBLISH_AGENT_REMINDER)：用于"每日提醒"功能。通知内容为固定提示文案（"今天的六个词，想好了吗？"），不包含任何日记内容。此功能为可选功能，不开启不影响使用。</li>
+  </ul>
+
+  <h2>四、数据导出与备份</h2>
+  <p>您可以随时通过"我的 → 导出数据"将全部日记记录导出为 JSON 或 CSV 格式文件，导出文件保存在应用沙箱目录中，您拥有数据的完全所有权。</p>
+
+  <h2>五、数据删除</h2>
+  <ul>
+    <li>应用内可在时光页面删除单条记录</li>
+    <li>卸载应用将永久清除所有本地数据，此操作不可恢复</li>
+    <li>建议您在卸载前使用导出功能进行备份</li>
+  </ul>
+
+  <h2>六、第三方服务</h2>
+  <p>六迹不集成任何第三方 SDK、数据分析工具、广告投放服务、用户行为追踪系统或社交分享 SDK。应用内的"分享海报"功能通过系统原生分享接口实现，不经过第三方服务。</p>
+
+  <h2>七、儿童隐私保护</h2>
+  <p>六迹不面向14岁以下儿童用户，不主动收集任何个人身份信息。由于应用完全本地运行且无网络功能，不存在儿童数据泄露风险。</p>
+
+  <h2>八、桌面卡片（小组件）</h2>
+  <p>六迹提供桌面卡片功能，卡片数据来源于本地数据库，仅在设备本地渲染显示，不涉及任何数据传输。</p>
+
+  <h2>九、隐私政策更新</h2>
+  <p>如本政策有实质性变更，我们将在应用内以弹窗形式通知您。继续使用即视为同意更新后的政策。</p>
+
+  <h2>十、联系我们</h2>
+  <p>如您对本隐私政策有任何疑问或建议，请通过以下方式联系：</p>
+  <ul>
+    <li>华为应用市场评论区留言</li>
+    <li>GitHub 项目页面提交 Issue</li>
+  </ul>
+
+  <div class="footer">
+    <p>六迹 (SixEchoes) v1.0.0</p>
+    <p>开发者：xun</p>
+    <p>本政策自 2026 年 5 月 5 日起生效</p>
+  </div>
+</body>
+</html>
