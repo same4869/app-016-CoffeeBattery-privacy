@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>芯电图 - 隐私政策</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif; background: #000; color: #e0e0e0; line-height: 1.8; padding: 24px; max-width: 800px; margin: 0 auto; }
+        h1 { color: #00F2FE; font-size: 24px; margin-bottom: 8px; }
+        h2 { color: #fff; font-size: 18px; margin-top: 32px; margin-bottom: 12px; }
+        h3 { color: #ccc; font-size: 15px; margin-top: 20px; margin-bottom: 8px; }
+        p { margin-bottom: 12px; font-size: 14px; }
+        ul { padding-left: 20px; margin-bottom: 12px; }
+        li { margin-bottom: 6px; font-size: 14px; }
+        .update-date { color: #8E8E93; font-size: 13px; margin-bottom: 24px; }
+        .highlight { color: #00F2FE; }
+        .section { background: #1C1C1E; border-radius: 12px; padding: 20px; margin-bottom: 16px; border: 1px solid #2C2C2E; }
+        a { color: #00F2FE; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>隐私政策</h1>
+    <p class="update-date">更新日期：2026年5月6日 | 生效日期：2026年5月6日</p>
+
+    <div class="section">
+        <p>欢迎使用<span class="highlight">「芯电图」</span>（以下简称"本应用"）。我们深知个人信息对您的重要性，并会尽全力保护您的隐私安全。请您在使用本应用前，仔细阅读并了解本隐私政策。</p>
+    </div>
+
+    <h2>一、信息采集范围</h2>
+    <div class="section">
+        <p>本应用仅通过系统开放接口采集以下<strong>设备硬件信息</strong>：</p>
+        <ul>
+            <li>电池温度（通过系统电池接口获取）</li>
+            <li>电池电压（通过系统电池接口获取）</li>
+            <li>电池电量百分比</li>
+            <li>充电状态（充电中/未充电/已充满）</li>
+            <li>充电器类型（有线/无线/USB）</li>
+            <li>设备热等级（系统热管理接口）</li>
+            <li>电池健康状态</li>
+        </ul>
+        <p><strong>本应用不采集任何个人身份信息</strong>，包括但不限于：姓名、手机号、位置信息、通讯录、照片、通话记录等。</p>
+    </div>
+
+    <h2>二、信息存储方式</h2>
+    <div class="section">
+        <p>所有采集的设备信息均<span class="highlight">存储在您的设备本地</span>，具体方式为：</p>
+        <ul>
+            <li>使用设备本地关系型数据库（RDB）存储历史事件记录</li>
+            <li>使用本地 Preferences 存储用户设置偏好</li>
+        </ul>
+        <p><strong>本应用不含任何网络通信模块</strong>，不会将任何数据上传至任何服务器或第三方平台。您的数据绝不会离开您的设备。</p>
+    </div>
+
+    <h2>三、信息使用目的</h2>
+    <div class="section">
+        <p>采集的设备信息仅用于以下功能：</p>
+        <ul>
+            <li>实时监控面板的数据展示</li>
+            <li>充电/温度异常事件的自动记录与历史回溯</li>
+            <li>电池健康度评估与数据分析图表</li>
+            <li>生成本地健康报告图片（保存至您的设备相册）</li>
+            <li>桌面小组件的数据更新</li>
+        </ul>
+    </div>
+
+    <h2>四、权限使用说明</h2>
+    <div class="section">
+        <h3>4.1 后台持续运行权限</h3>
+        <p>用途：在应用退至后台时持续监控设备温度变化，自动记录充电和过热事件。</p>
+        <p>您可在应用设置中随时关闭"全天候后台抓取"功能。</p>
+
+        <h3>4.2 振动权限</h3>
+        <p>用途：当设备核心温度超过安全阈值（40℃）时，通过物理震动提醒您注意设备发热。</p>
+        <p>您可在应用设置中随时关闭"过热物理阻尼反馈"功能。</p>
+
+        <h3>4.3 写入相册权限</h3>
+        <p>用途：将生成的设备健康报告图片保存至您的设备相册，便于分享或留存。</p>
+        <p>仅在您主动点击"导出报告"时触发，不会自动写入任何内容。</p>
+    </div>
+
+    <h2>五、信息安全保障</h2>
+    <div class="section">
+        <ul>
+            <li>本应用采用<span class="highlight">本地优先（Local-First）</span>架构，零云端依赖</li>
+            <li>不包含任何第三方 SDK、统计分析工具或广告框架</li>
+            <li>不进行任何形式的数据采集上报或用户行为追踪</li>
+            <li>您可随时在系统设置中清除本应用数据</li>
+            <li>卸载本应用将永久删除所有本地存储数据，不可恢复</li>
+        </ul>
+    </div>
+
+    <h2>六、未成年人保护</h2>
+    <div class="section">
+        <p>本应用不针对未成年人提供服务，也不主动采集任何个人身份信息。如您是未成年人的监护人，请放心本应用不涉及任何个人隐私数据的处理。</p>
+    </div>
+
+    <h2>七、隐私政策的变更</h2>
+    <div class="section">
+        <p>我们可能适时修订本隐私政策。当政策发生重大变更时，我们将在应用内以弹窗方式通知您。</p>
+        <p>若您在隐私政策变更后继续使用本应用，即表示您同意接受修订后的隐私政策。</p>
+    </div>
+
+    <h2>八、联系我们</h2>
+    <div class="section">
+        <p>如您对本隐私政策有任何疑问、意见或建议，请通过以下方式联系我们：</p>
+        <p>邮箱：<a href="mailto:119123059@qq.com">119123059@qq.com</a></p>
+        <p>我们将在收到您的反馈后15个工作日内予以回复。</p>
+    </div>
+</body>
+</html>
