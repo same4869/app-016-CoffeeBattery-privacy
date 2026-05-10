@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>密龄 - 隐私政策</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            line-height: 1.8;
+            color: #1f2937;
+            background: #f9fafb;
+            padding: 20px;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #111827;
+        }
+        .meta {
+            font-size: 13px;
+            color: #9ca3af;
+            margin-bottom: 32px;
+        }
+        h2 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 28px;
+            margin-bottom: 12px;
+            color: #111827;
+        }
+        p, li {
+            font-size: 14px;
+            color: #4b5563;
+            margin-bottom: 12px;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 12px;
+        }
+        li { margin-bottom: 6px; }
+        .highlight {
+            background: #ecfdf5;
+            border-left: 3px solid #34d399;
+            padding: 12px 16px;
+            border-radius: 8px;
+            margin: 16px 0;
+            font-size: 13px;
+            color: #065f46;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #f3f4f6;
+            font-size: 12px;
+            color: #9ca3af;
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            body { padding: 12px; }
+            .container { padding: 24px; border-radius: 12px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>密龄 隐私政策</h1>
+        <p class="meta">更新日期：2026年5月10日 | 生效日期：2026年5月10日</p>
+
+        <div class="highlight">
+            密龄是一款纯本地应用，不申请任何网络权限，您的数据绝不会离开您的设备。
+        </div>
+
+        <h2>一、概述</h2>
+        <p>密龄（以下简称"本应用"）是一款纯本地密码健康度管理工具，由开发者独立开发并运营。本应用高度重视用户隐私保护，本隐私政策旨在向您说明本应用如何处理您的信息。</p>
+
+        <h2>二、信息收集</h2>
+        <p>本应用<strong>不收集任何个人信息</strong>。具体而言：</p>
+        <ul>
+            <li>不收集姓名、手机号、邮箱等身份信息</li>
+            <li>不收集设备标识符、IMEI、IP地址等设备信息</li>
+            <li>不收集地理位置信息</li>
+            <li>不收集浏览记录或使用行为数据</li>
+            <li>不使用任何第三方统计、分析或广告SDK</li>
+            <li>不进行任何形式的用户画像或行为追踪</li>
+        </ul>
+
+        <h2>三、网络权限</h2>
+        <p>本应用<strong>不申请、不使用任何网络相关权限</strong>（包括 ohos.permission.INTERNET）。应用在技术层面完全无法访问互联网，您的数据不可能通过网络传输至任何服务器或第三方。</p>
+
+        <h2>四、数据存储</h2>
+        <ul>
+            <li>所有用户数据仅存储在当前设备本地存储空间中</li>
+            <li>敏感数据（如账号标识）采用 AES-256-GCM 加密算法进行字段级加密存储</li>
+            <li>加密密钥由 HarmonyOS HUKS（通用密钥库系统）管理，绑定设备硬件安全芯片，密钥不可导出</li>
+            <li>本地数据库安全等级设置为 S3</li>
+        </ul>
+
+        <h2>五、数据使用</h2>
+        <p>您在本应用中录入的资产信息（账号名称、账户标识、分类、保质期等）仅用于以下目的：</p>
+        <ul>
+            <li>在本设备上展示密码健康状态和保质期倒计时</li>
+            <li>计算密码过期时间并发送本地通知提醒</li>
+            <li>生成安全统计报告（纯本地计算，不外传）</li>
+            <li>桌面小组件展示安全概览（数据不离开设备）</li>
+        </ul>
+
+        <h2>六、数据共享</h2>
+        <p>本应用<strong>不与任何第三方共享您的数据</strong>。由于本应用不具备网络能力，数据在技术层面无法被传输至应用之外的任何位置。</p>
+
+        <h2>七、数据安全</h2>
+        <p>本应用采取以下安全措施保护您的数据：</p>
+        <ul>
+            <li>硬件级密钥管理（HUKS 安全芯片，密钥不可导出）</li>
+            <li>AES-256-GCM 字段级加密存储</li>
+            <li>密码学安全随机数生成（CryptoFramework）</li>
+            <li>生物识别（指纹/面容）访问控制（ATL3信任等级）</li>
+            <li>防截屏/录屏保护（窗口隐私模式）</li>
+            <li>可选自毁协议（连续验证失败后自动擦除全部数据）</li>
+        </ul>
+
+        <h2>八、数据导出与删除</h2>
+        <ul>
+            <li>您可随时通过应用内"防护"页面导出加密备份文件（JSON格式）</li>
+            <li>卸载本应用将永久删除所有本地数据，不可恢复</li>
+            <li>您可在应用内启用"自毁协议"以在异常情况下自动清除全部数据</li>
+            <li>您可随时手动删除任意单条资产记录</li>
+        </ul>
+
+        <h2>九、权限说明</h2>
+        <p>本应用申请的权限及对应用途：</p>
+        <ul>
+            <li><strong>通知权限</strong>：用于发送密码到期本地提醒通知（可拒绝授权，不影响核心功能）</li>
+            <li><strong>生物识别</strong>：用于应用启动及前台恢复时的身份验证</li>
+        </ul>
+        <p>本应用<strong>不申请</strong>以下权限：网络、相机、麦克风、相册、定位、通讯录、日历、电话、存储（公共目录）等。</p>
+
+        <h2>十、未成年人保护</h2>
+        <p>本应用不面向14周岁以下未成年人提供服务。如果您是未成年人，请在监护人的指导和同意下使用本应用。</p>
+
+        <h2>十一、隐私政策更新</h2>
+        <p>本隐私政策可能会根据法律法规变化或产品更新而适时修订。更新后的政策将在应用内及本页面展示，不会以降低您隐私保护水平的方式修改条款。如您在更新后继续使用本应用，即表示同意修订后的隐私政策。</p>
+
+        <h2>十二、联系我们</h2>
+        <p>如果您对本隐私政策有任何疑问、意见或建议，请通过以下方式与我们联系：</p>
+        <ul>
+            <li>电子邮箱：<a href="mailto:119123059@qq.com">119123059@qq.com</a></li>
+        </ul>
+        <p>我们将在收到您的反馈后15个工作日内予以回复。</p>
+
+        <div class="footer">
+            <p>密龄 PassAge &copy; 2026 | 纯本地 · 零网络 · 硬件加密</p>
+        </div>
+    </div>
+</body>
+</html>
