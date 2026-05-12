@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隐私政策 - 地铁通勤账本</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            line-height: 1.8;
+            color: #1E293B;
+            background: #F7F8FA;
+            padding: 20px;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background: #FFFFFF;
+            border-radius: 16px;
+            padding: 40px 32px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: #0F172A;
+        }
+        .subtitle {
+            font-size: 14px;
+            color: #64748B;
+            margin-bottom: 32px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #E2E8F0;
+        }
+        h2 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 28px;
+            margin-bottom: 12px;
+            color: #0F172A;
+        }
+        p {
+            font-size: 14px;
+            color: #334155;
+            margin-bottom: 12px;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 12px;
+        }
+        li {
+            font-size: 14px;
+            color: #334155;
+            margin-bottom: 6px;
+        }
+        .highlight {
+            background: #ECFDF5;
+            border-left: 3px solid #10B981;
+            padding: 12px 16px;
+            border-radius: 0 8px 8px 0;
+            margin: 16px 0;
+        }
+        .highlight p {
+            color: #065F46;
+            margin-bottom: 0;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #E2E8F0;
+            font-size: 12px;
+            color: #94A3B8;
+        }
+        .footer a {
+            color: #64748B;
+            text-decoration: none;
+        }
+        .badge {
+            display: inline-block;
+            background: #F1F5F9;
+            color: #64748B;
+            font-size: 12px;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>隐私政策</h1>
+        <p class="subtitle">地铁通勤账本 <span class="badge">v1.0.0</span> &middot; 更新日期：2026年5月12日 &middot; 生效日期：2026年5月12日</p>
+
+        <p>感谢您选择使用「地铁通勤账本」（以下简称"本应用"）。我们深知隐私数据的重要性，并致力于保护您的个人信息安全。请在使用本应用前，仔细阅读并理解本隐私政策。</p>
+
+        <div class="highlight">
+            <p><strong>核心承诺：</strong>本应用所有数据 100% 存储在您的设备本地。我们不收集、不上传、不分享您的任何个人数据。</p>
+        </div>
+
+        <h2>一、我们收集的信息</h2>
+        <p><strong>我们不收集任何个人信息。</strong></p>
+        <p>本应用采用纯本地化架构设计，不包含任何网络请求模块、用户账号系统或第三方数据统计 SDK。具体而言：</p>
+        <ul>
+            <li>不收集您的姓名、手机号、身份信息</li>
+            <li>不收集您的地理位置（不申请定位权限）</li>
+            <li>不收集您的设备标识符（IMEI、OAID 等）</li>
+            <li>不收集您的通讯录、相册、通话记录等</li>
+            <li>不收集您的网络浏览记录或应用使用习惯</li>
+        </ul>
+
+        <h2>二、数据存储</h2>
+        <p>您在本应用中产生的所有数据（包括但不限于通勤记录、时间分配、成就数据、设置偏好）均存储在您设备本地的应用沙箱中，具体采用以下技术方案：</p>
+        <ul>
+            <li><strong>关系型数据库（RDB）：</strong>用于存储通勤记录、时间分段、里程碑成就等结构化数据</li>
+            <li><strong>轻量级偏好存储（Preferences）：</strong>用于存储用户设置（如城市选择、深色模式偏好）</li>
+        </ul>
+        <p>上述数据不会通过任何方式传输至外部服务器。</p>
+
+        <h2>三、权限使用说明</h2>
+        <p>本应用可能申请以下设备权限，每项权限均有明确用途：</p>
+        <ul>
+            <li><strong>振动（Vibrator）：</strong>用于时间切分操作时的触觉反馈，提升操作确认感。该权限为系统级能力，无需显式授权。</li>
+        </ul>
+        <p>本应用不申请以下敏感权限：定位、相机、麦克风、存储（公共目录）、网络访问。</p>
+
+        <h2>四、内置数据说明</h2>
+        <p>本应用内置了全国地铁站点名称数据，用于站点搜索和匹配功能。该数据：</p>
+        <ul>
+            <li>来源于高德地图开放平台的公开信息</li>
+            <li>仅包含站点名称、拼音、所属线路等公开信息</li>
+            <li>不涉及实时位置追踪或地图定位</li>
+            <li>预置于应用安装包中，不需要联网获取</li>
+        </ul>
+
+        <h2>五、虚拟数据说明</h2>
+        <p>本应用中展示的"同城大盘"对比数据、虚拟排行榜数据均为基于公开报告的静态模拟数据，经算法随机微调生成。这些数据：</p>
+        <ul>
+            <li>不代表任何真实用户的通勤行为</li>
+            <li>不涉及任何形式的数据采集或联网对比</li>
+            <li>仅用于提供参考锚点和产品体验</li>
+        </ul>
+
+        <h2>六、数据导出与删除</h2>
+        <p><strong>数据导出：</strong>您可以随时通过应用内"设置 → 导出数据"功能，将全部通勤记录导出为 CSV 格式文件，存储至设备本地。数据主权完全归您所有。</p>
+        <p><strong>数据删除：</strong>您可以随时通过应用内"设置 → 清除所有数据"功能，永久删除全部应用数据。删除操作不可逆，执行后所有记录、成就、设置将被彻底清除。</p>
+        <p><strong>卸载应用：</strong>卸载本应用将自动清除所有存储在应用沙箱中的数据，不会有任何残留。</p>
+
+        <h2>七、第三方服务</h2>
+        <p>本应用不集成任何第三方服务，包括但不限于：</p>
+        <ul>
+            <li>不使用第三方统计分析 SDK（如友盟、Firebase Analytics）</li>
+            <li>不使用第三方推送服务</li>
+            <li>不使用第三方广告 SDK</li>
+            <li>不使用第三方社交分享 SDK</li>
+            <li>不使用第三方支付 SDK</li>
+        </ul>
+
+        <h2>八、未成年人保护</h2>
+        <p>本应用不针对未成年人设计，不收集任何年龄相关信息。由于本应用不收集任何个人信息且无网络交互功能，不存在未成年人信息泄露风险。如果您是未成年人的监护人，且对本应用有任何疑虑，欢迎通过下方联系方式与我们沟通。</p>
+
+        <h2>九、隐私政策更新</h2>
+        <p>我们可能会不定期更新本隐私政策。更新后的政策将通过应用内弹窗方式通知您，并需要您重新确认同意后方可继续使用。您可以通过对比版本号判断政策是否有变更。</p>
+        <p>当前隐私政策版本：<span class="badge">v1.0</span></p>
+
+        <h2>十、联系我们</h2>
+        <p>如您对本隐私政策有任何疑问、意见或建议，或需要行使您的数据权利，请通过以下方式联系我们：</p>
+        <ul>
+            <li><strong>邮箱：</strong><a href="mailto:119123059@qq.com">119123059@qq.com</a></li>
+        </ul>
+        <p>我们将在收到您的反馈后 15 个工作日内予以回复。</p>
+
+        <div class="footer">
+            <p>地铁通勤账本 &copy; 2026 &middot; 本应用不含广告、不含内购、不收集数据</p>
+            <p>隐私政策版本 v1.0 &middot; 发布日期 2026-05-12</p>
+        </div>
+    </div>
+</body>
+</html>
